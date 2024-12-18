@@ -63,7 +63,7 @@ export default function RegisterEmail(props: props) {
                             <Text>At Waste-ease, we believe that saving the planet should be fun and rewarding. So let&apos;s roll up our sleeves, get dumping, and earn some coupons along the way!</Text>
                             <Text>Thanks for joining us on this exciting adventure. Together, we&apos;ll gamify waste management and make a difference, one dump at a time!</Text>
                             <Text>Best regards,</Text>
-                            <Text>Team Mnemonics</Text>
+                            <Text>Debayan Pratihar</Text>
                         </Container>
                     </Body>
                 </Html>

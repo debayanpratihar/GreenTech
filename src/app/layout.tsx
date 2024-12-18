@@ -9,10 +9,10 @@ import Navbar from "@/components/shared/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Waste-ease",
+    title: "GreenTech",
     manifest: "/manifest.json",
     icons: { apple: "/wastelogo.png" },
-    description: "Waste-ease for Simplified your Waste Management",
+    description: "GreenTech for Simplified your Waste Management",
 };
 
 export default function RootLayout({

@@ -11,7 +11,7 @@ export default function RegisterEmail(props: props) {
     return (
         <Html lang="en">
             <Head />
-            <Preview>{type == "VERIFY_USER" ? "Welcome to Waste-ease for Simplified your Waste Management" : "Lets recover your lost password"}</Preview>
+            <Preview>{type == "VERIFY_USER" ? "Welcome to GreenTech for Simplified your Waste Management" : "Lets recover your lost password"}</Preview>
             <Tailwind>
                 <Html lang="en">
                     <Head>
@@ -34,7 +34,7 @@ export default function RegisterEmail(props: props) {
                             <Text className=" text-black text-[14px] leading-[24px]">
                                 Dear <strong>{username}</strong>,
                             </Text>
-                            <Text className=" text-[14px] leading-[24px]">{type == "VERIFY_USER" ? "Welcome to Waste-ease, where we're revolutionizing waste management by making it fun and rewarding! We're excited to have you join our platform and become part of our waste-fighting community. \n" : "We hope this email finds you in good spirits! It seems like your password needs a little TLC, so we’ve set up a magic button just for you"}</Text>
+                            <Text className=" text-[14px] leading-[24px]">{type == "VERIFY_USER" ? "Welcome to GreenTech, where we're revolutionizing waste management by making it fun and rewarding! We're excited to have you join our platform and become part of our waste-fighting community. \n" : "We hope this email finds you in good spirits! It seems like your password needs a little TLC, so we’ve set up a magic button just for you"}</Text>
                             <Text className="  text-[14px] leading-[24px]">{type == "VERIFY_USER" ? " But first things first - let's get you verified so you can start earning those rewards! Click the button below to verify your email and unlock your access to our gamified waste management platform:" : "Remember, this link is as secret as the recipe for grandma’s famous cookies, so please guard it like a dragon guards its treasure! 🐉🔐 We trust you to keep it under wraps and not share it with anyone, not even your cat (unless your cat happens to be a cybersecurity expert, in which case, we might reconsider). Please click on the button below to reset your password:"}</Text>
                             <Section className="text-center mt-[32px] mb-[32px]">
                                 <Button className=" bg-green-600 p-4 rounded text-white text-[12px] font-semibold w-full no-underline text-center" href={VerifyLink}>
@@ -60,7 +60,7 @@ export default function RegisterEmail(props: props) {
                             <Text>
                                 <strong className=" text-green-600">Track Your Progress:</strong> Keep an eye on your waste-dumping stats and see how you&apos;re making a difference in the world. You&apos;ll be amazed at how much of an impact you can have!
                             </Text>
-                            <Text>At Waste-ease, we believe that saving the planet should be fun and rewarding. So let&apos;s roll up our sleeves, get dumping, and earn some coupons along the way!</Text>
+                            <Text>At GreenTech, we believe that saving the planet should be fun and rewarding. So let&apos;s roll up our sleeves, get dumping, and earn some coupons along the way!</Text>
                             <Text>Thanks for joining us on this exciting adventure. Together, we&apos;ll gamify waste management and make a difference, one dump at a time!</Text>
                             <Text>Best regards,</Text>
                             <Text>Debayan Pratihar</Text>

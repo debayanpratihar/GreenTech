@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Waste Easy",
-    "short_name": "Waste Easy",
-    "description": "Waste-ease for Simplified your Waste Management",
+    "name": "GreenTech",
+    "short_name": "GreenTech",
+    "description": "GreenTech for Simplified your Waste Management",
     "icons": [
         {
             "src": "/wastelogo.png",

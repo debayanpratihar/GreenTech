@@ -123,7 +123,7 @@ const Page = () => {
                     <div className=" bg-green-600 rounded-3xl w-full h-48 mt-12">
                         <div className="flex relative flex-col text-white justify-center items-center h-full">
                             <div className="flex flex-col gap-2 relative">
-                                <img src={user.userData?.profilePicture || "https://i.pinimg.com/564x/58/79/29/5879293da8bd698f308f19b15d3aba9a.jpg"} className=" w-20 h-20 rounded-xl" alt="" />
+                                <img src={user.userData?.profilePicture || "https://blogger.googleusercontent.com/img/a/AVvXsEj3t_z7UXiKOFaoJlIrcoz6XGyhMnS1j8V4qs1Rzx1aXduNui3PXn4eCb9uT8wss8IplC483IZbnn7ZGeoXpMLi3LFdRHEBdmnbzyg8eRfJF-0oBmMyxuh6q3QMJ5THOSoExiFo8TQlpD-wgLT8ZWDZ8aC3RjmebZ6REA_SgNO0zvh8fuxy8l-WhGEVqBc"} className=" w-20 h-20 rounded-xl" alt="" />
                                 <h1 className=" text-3xl font-bold tracking-wide capitalize">{user?.userData?.username}</h1>
                                 <Link href={"/edit-profile"} className="bg-white p-2 rounded-lg bottom-10 right-0 absolute text-black">
                                     <Edit size={17} />

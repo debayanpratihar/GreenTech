@@ -112,7 +112,7 @@ const Page = () => {
                         <section className=" p-2 flex flex-col gap-8 relative">
                             <div className="flex items-center justify-between ">
                                 <Link href={"/profile"} className="flex items-center gap-3">
-                                    <img src={user.userData?.profilePicture || "https://i.pinimg.com/564x/58/79/29/5879293da8bd698f308f19b15d3aba9a.jpg"} className=" w-12 h-12 rounded-xl" alt="" />
+                                    <img src={user.userData?.profilePicture || "https://blogger.googleusercontent.com/img/a/AVvXsEj3t_z7UXiKOFaoJlIrcoz6XGyhMnS1j8V4qs1Rzx1aXduNui3PXn4eCb9uT8wss8IplC483IZbnn7ZGeoXpMLi3LFdRHEBdmnbzyg8eRfJF-0oBmMyxuh6q3QMJ5THOSoExiFo8TQlpD-wgLT8ZWDZ8aC3RjmebZ6REA_SgNO0zvh8fuxy8l-WhGEVqBc"} className=" w-12 h-12 rounded-xl" alt="" />
                                     <div className="flex flex-col gap-0">
                                         <h1 className=" font-semibold text-xl capitalize">Hi,{user?.userData?.username || "Unknown"}</h1>
                                         <span className=" text-sm font-medium opacity-70 ">

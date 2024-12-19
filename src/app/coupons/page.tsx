@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Lato } from "next/font/google";
 import Image from "next/image";
 
-import banner from "@/assets/banner.jpg";
+import banner from "@/assets/banner.jpeg";
 import logo from "@/assets/logo.png";
 import SpinLoading from "@/components/loading/SpinLoading";
 const lato = Lato({ weight: "400", subsets: ["latin"] });

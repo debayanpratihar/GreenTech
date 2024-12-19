@@ -120,6 +120,9 @@ const Page = () => {
             ) : (
                 <div className={`${lato.className} flex flex-col  min-h-[90vh]`}>
                     <h1 className=" text-4xl font-bold tracking-wide mt-3">Profile</h1>
+                                        <button onClick={logout} className="flex items-center justify-center gap-4 text-lg font-semibold w-full p-4 rounded-lg mt-5  text-white bg-green-600">
+                        <LogOut /> Logout
+                    </button>
                     <div className=" bg-green-600 rounded-3xl w-full h-48 mt-12">
                         <div className="flex relative flex-col text-white justify-center items-center h-full">
                             <div className="flex flex-col gap-2 relative">
@@ -166,9 +169,7 @@ const Page = () => {
                         </div>
                     </div>
 
-                    <button onClick={logout} className="flex items-center justify-center gap-4 text-lg font-semibold w-full p-4 rounded-lg mt-5  text-white bg-green-600">
-                        <LogOut /> Logout
-                    </button>
+
                 </div>
             )}
         </>

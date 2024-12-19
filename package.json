@@ -20,6 +20,7 @@
     "@serwist/sw": "^9.0.0-preview.21",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
+    "caniuse-lite": "^1.0.30001690",
     "chart.js": "^3.0.0",
     "cookies-next": "^4.0.0",
     "emailjs-com": "^3.2.0",

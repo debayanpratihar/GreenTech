@@ -34,11 +34,12 @@ export default function VerifyEmailPage() {
         setToken(urlToken || "");
     }, []);
 
-    useEffect(() => {
-        if (token.length > 0) {
-            verifyUserEmail();
-        }
-    }, [token]);
+useEffect(() => {
+    if (token.length > 0) {
+        verifyUserEmail(); // Trigger verifyUserEmail when token changes
+    }
+}, [token, verifyUserEmail]); // Include verifyUserEmail as a dependency
+
 
     return (
         <div className="flex justify-center items-center  flex-col min-h-[90vh] p-3 gap-5">

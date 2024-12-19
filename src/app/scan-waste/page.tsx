@@ -96,11 +96,12 @@ const Page: React.FC = () => {
         }
     };
 
-    useEffect(() => {
-        if (photoData) {
-            scanImage();
-        }
-    }, [photoData]);
+useEffect(() => {
+    if (photoData) {
+        scanImage(); // Trigger scanImage when photoData changes
+    }
+}, [photoData, scanImage]); // Include scanImage as a dependency
+
 
     useEffect(() => {
         startCamera();

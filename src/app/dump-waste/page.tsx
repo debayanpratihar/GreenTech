@@ -204,11 +204,12 @@ const Page: React.FC = () => {
         }
     };
 
-    useEffect(() => {
-        if (photoData) {
-            scanImage();
-        }
-    }, [photoData]);
+useEffect(() => {
+    if (photoData) {
+        scanImage();
+    }
+}, [photoData, scanImage]); // Add scanImage here to avoid missing dependency warning
+
 
     useEffect(() => {
         startCamera();
